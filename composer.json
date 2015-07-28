@@ -1,0 +1,42 @@
+{
+    "name":        "mcadare/eventhub-bundle",
+    "type":        "symfony-bundle",
+    "description": "EventHubBundle is an EventBundle integration bundle for Symfony.",
+    "keywords":    [
+        "Symfony2",
+        "events"
+    ],
+    "homepage":    "http://github.com/mcadare/EventHubBundle",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Meven",
+            "email": "meven.cadare@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":                          ">=5.3.3",
+        "symfony/framework-bundle":     "~2.3",
+        "mcadare/eventhub":      "*"
+    },
+
+    "suggest": {
+        "mcadare/flash-message-handler-bundle":     "to dispatch flash messages"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "MCadare\\Symfony\\EventHubBundle\\": ""
+        }
+    },
+
+    "target-dir": "MCadare/Symfony/EventHubBundle",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
